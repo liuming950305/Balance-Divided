@@ -1,0 +1,45 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+
+.billDesc {
+  width: 100%;
+  height: 300rpx;
+  background-color: #1AAD16;
+  color: #fff;
+}
+.totalMoney {
+  font-size: 4rem;
+  font-weight: 500;
+  
+}
+.comsumeRecord {
+  width:100%;
+  background-color: #EDEDED;
+  color: #C1CDCD;
+}
+.comsumeRecord:first-child {
+  float: left;
+}
+.comsumeRecord:last-child {
+  float: right;
+}

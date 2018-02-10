@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/bills/details",
+    "pages/bills/devide"
+  ],
+  "window": {
+    "navigationBarTitleText": "Balance 分账",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1AAD16",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/bills/bill.png",
+        "selectedIconPath": "pages/bills/bill-active.png",
+        "text": "明细"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "pages/bills/money.png",
+        "selectedIconPath": "pages/bills/money-active.png",
+        "text": "分账"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

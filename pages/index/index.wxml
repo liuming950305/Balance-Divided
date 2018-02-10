@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view>
+  <view class="billDesc">
+    <view>
+      我的默认旅行账单
+      <view class="totalMoney">
+        100.00
+      </view>
+      <view class="tips">
+        我的消费 CNY
+      </view>
+    </view>
+  </view>
+  <view>
+  <view class="comsumeRecord">
+    <view>今天</view>
+    <view>¥ 100</view>
+  </view>
+  </view>
+</view>
